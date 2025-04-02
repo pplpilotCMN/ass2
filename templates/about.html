@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Project</title>
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>4.5: Summative Assessment II - Development of a Web Application</h1>
+        <h2>Chris Northall - Student #24021400</h2>
+        <h2><a href="mailto:y1g99@students.keele.ac.uk">y1g99@students.keele.ac.uk</a></h2>
+        <nav class="nav-container">
+            <a href="{{ url_for('index') }}" class="btn">Home Page</a>
+            <a href="{{ url_for('creative') }}" class="btn">Bubble Chart</a>
+            <a href="{{ url_for('basic') }}" class="btn">Sentiment Table</a>
+            <a href="{{ url_for('advanced') }}" class="btn">Sortable Table</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-box">
+            <h2>Project Overview</h2>
+            <p>This project is a Flask-based web application that visualises sentiment analysis of U.S. airline tweets.
+                It processes Twitter data and presents it through interactive visualisations and a sortable table.</p>
+        </section>
+
+        <section class="content-box">
+            <h2>How It Works</h2>
+            <ul>
+                <li><strong>Flask Backend:</strong> Handles routing and serves different pages (about, advanced, basic, creative, and index.)</li>
+                <li><strong>Data Processing:</strong> Reads airline sentiment data from a CSV file (Kaggle_TwitterUSAirlineSentiment.csv) .</li>
+                <li><strong>Bubble Chart:</strong> Uses D3.js to visualise sentiment distribution per airline.</li>
+                <li><strong>Sortable Table:</strong> Displays all data from the CSV file with sorting functionality.</li>
+                <li><strong>Sentiment Table:</strong> Displays 40 rows and limited columns with `airline_sentiment_confidence` in ascending order. </li>
+            </ul>
+        </section>
+
+        <section class="content-box">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Interactive Bubble Chart, sentiment visualisation with D3 force-directed bubbles.</li>
+                <li>An all columns Sortable table.</li>
+                <li>CSV data handling with error checking.</li>
+                <li>Dynamic filtering of airline sentiment data.</li>
+            </ul>
+        </section>
+
+        <section class="content-box">
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>Flask (Python backend)</li>
+                <li>D3.js (Data visualisation)</li>
+                <li>HTML, CSS, JavaScript (Frontend)</li>
+                <li>CSV Data Processing</li>
+                <li>unittest for testing</li>
+                <li>prettytable for clear test results</li>
+
+
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>

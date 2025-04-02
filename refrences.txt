@@ -1,0 +1,22 @@
+
+d3js.org. (n.d.). Getting started | D3 by Observable. [online] Available at: https://d3js.org/getting-started.
+
+d3js.org. (n.d.). Force simulations | D3 by Observable. [online] Available at: https://d3js.org/d3-force/simulation.
+
+D3js.org. (2025). Sorting data | D3 by Observable. [online] Available at: https://d3js.org/d3-array/sort#sorting-data
+
+Bubble Chart Cluster with Different Radius - YouTube (2025). Available at: https://youtu.be/S0m-aaBChBU?feature=shared [Accessed 27 Mar. 2025].
+
+jeffeld (2016). How to scale text in a D3 bubble chart. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/34853441/how-to-scale-text-in-a-d3-bubble-chart.
+
+Berto Yáñez (2014). D3 bubbles force layout animation. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/24324243/d3-bubbles-force-layout-animation.
+
+Vika (2019). Prevent bubbles from overlapping in D3 bubble chart. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/55699350/prevent-bubbles-from-overlapping-in-d3-bubble-chart.
+
+Medium.com. (2025). Available at: https://medium.com/@jhren/d3-data-visualization-in-javascript-use-d3-js-to-create-a-bubble-chart-3fba181faacd [Accessed 27 Mar. 2025].
+
+kapoor, V. (2015). Data sorting in table in D3. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/33825725/data-sorting-in-table-in-d3.
+
+Fil (2019). d3.group, d3.rollup, d3.index. [online] Observable. Available at: https://observablehq.com/@d3/d3-group.
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Sentiment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <h1>Airline Sentiment</h1>
+    <h3>Mouseover Bubbles for more info</h3>
+
+    <div class="nav-container">
+        <a href="{{ url_for('basic') }}" class="btn">Sentiment Table</a>
+        <a href="{{ url_for('advanced') }}" class="btn">Sortable Table</a>
+        <a href="{{ url_for('index') }}" class="btn">Home Page</a>
+    </div>
+
+    <!--dropdown-->
+    <select id="airline-dropdown">
+        <option value="all">All Airlines</option>
+        <!-- Options will be populated by JS -->
+    </select>
+
+    <!--sentiment legend -->
+    <div id="legend" class="legend">
+        <div class="legend-item">
+            <span class="legend-color positive"></span> Positive
+        </div>
+        <div class="legend-item">
+            <span class="legend-color neutral"></span> Neutral
+        </div>
+        <div class="legend-item">
+            <span class="legend-color negative"></span> Negative
+        </div>
+    </div>
+
+    <svg id="bubble-chart"> <!-- Chart goes here --> </svg>
+
+    <script src="/static/js/creative.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitter US Airline Sentiment</title>
+	<link href="/static/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://d3js.org/d3.v7.min.js"></script>
+
+  </head>
+  <body>
+    <div id="page-wrap">
+
+    <h1>
+      Twitter US Airline Sentiment (sortable table)
+    </h1>
+
+    <p>Click the table header to sort data according to that column</p>
+
+      <div class="nav-container">
+        <a href="{{ url_for('basic') }}" class="btn">Sentiment Table</a>
+        <a href="{{ url_for('creative') }}" class="btn">Bubble Chart</a>
+        <a href="{{ url_for('index') }}" class="btn">Home Page</a>
+    </div>
+
+
+    <script src="/static/js/table.js"></script>
+
+    </div>
+
+  </body>
+</html>
+
